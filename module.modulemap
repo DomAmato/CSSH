@@ -3,9 +3,9 @@ module Libssh2 {
     header "libssh2/libssh2_sftp.h"
     header "libssh2/libssh2_publickey.h"
 
-    link "ssl"
-    link "crypto"
-    link "ssh2"
+    link "libssl.a"
+    link "libcrypto.a"
+    link "libssh2.a"
     
     export *
 }
